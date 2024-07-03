@@ -1,25 +1,27 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>HPM Studios</title>
+        <meta name="description" content="HPM Studios" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome." />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-        {/* Adding the image here */}
-        <img src="/received_325817973919889.jpeg" alt="Description of image" style={{ width: '300px', height: 'auto' }} />
-      </main>
+      <header className={styles.header}>
+        <div className={styles.logo}>HPM studios</div>
+      </header>
 
-      <Footer />
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Welcome.
+        </h1>
+        <p className={styles.description}>
+          Get started by editing <code className={styles.code}>pages/index.js</code>
+        </p>
+      </main>
     </div>
-  )
+  );
 }
