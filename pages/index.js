@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-HPM studios
+
 export default function Home() {
   return (
     <div className="container">
@@ -9,7 +9,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-HPM studios
+
       <main>
         <Header title="Welcome." />
         <p className="description">
