@@ -1,5 +1,3 @@
-
-jsx
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
@@ -18,13 +16,10 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
         {/* Adding the image here */}
-        <img src="/example.jpg" alt="Description of image" style={{ width: '300px', height: 'auto' }} />
+        <img src="/received_325817973919889.jpeg" alt="Description of image" style={{ width: '300px', height: 'auto' }} />
       </main>
 
       <Footer />
     </div>
   )
 }
-
-
-
